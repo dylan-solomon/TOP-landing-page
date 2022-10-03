@@ -144,3 +144,46 @@ cite {
     justify-content: flex-end;
     width: 80%;
 }
+
+.call-to-action {
+    padding: 60px;
+}
+
+.cta {
+    width: 80%;
+    background-color: #3882F6;
+    padding: 40px;
+    margin: auto;
+    border-radius: 12px;
+    color:#F9FAF8;
+}
+
+.btm {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.cta .left {
+    color: #E5E7EB;
+    flex: 3;
+}
+
+.cta .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.time {
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.btn-secondary {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+}

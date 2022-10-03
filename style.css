@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 60px;
+}
+
+.logo a{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+nav ul a {
+    color: #F9FAF8;
+}

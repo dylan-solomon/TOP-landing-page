@@ -10,7 +10,6 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-
 }
 
 header {
@@ -43,3 +42,49 @@ nav ul {
 nav ul a {
     color: #F9FAF8;
 }
+
+.hero {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px auto 16px auto;
+}
+
+button {
+    padding: 6px 18px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-main {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+}
+
+.img-placeholder {
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
